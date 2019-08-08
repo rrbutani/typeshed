@@ -7,6 +7,7 @@ from typing import (
 from http.client import HTTPResponse, HTTPMessage, _HTTPConnectionProtocol
 from http.cookiejar import CookieJar
 from email.message import Message
+from urllib.request import URLError
 from urllib.response import addinfourl
 import ssl
 import sys
